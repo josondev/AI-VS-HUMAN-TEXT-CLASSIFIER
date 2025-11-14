@@ -7,7 +7,6 @@
 ├── fastapi_app.py              # Flask API
 ├── requirements.txt    # Dependencies
 ├── render.yaml         # Render config
-├── Procfile           # Heroku config
 └── model/             # Trained model (create this!)
     ├── vectorizer.joblib
     ├── classifier.joblib
