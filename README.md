@@ -2,7 +2,7 @@
 
 ## 📁 Project Structure
 ```
-.
+|── FRONTEND
 ├── detector.py          # Main detector class
 ├── fastapi_app.py              # Flask API
 ├── requirements.txt    # Dependencies
