@@ -1,9 +1,7 @@
 services:
   - type: web
-    name: ai-detector-fastapi
-    env: python
-    buildCommand: pip install -r requirements_fastapi.txt
+    name: ai-text-detector
+    runtime: python
+    plan: free
+    buildCommand: pip install --upgrade pip && pip install -r requirements_fastapi.txt
     startCommand: uvicorn fastapi_app:app --host 0.0.0.0 --port $PORT
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.0
