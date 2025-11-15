@@ -69,13 +69,6 @@ curl -X POST http://localhost:5000/predict \
   -d '{"text": "Machine learning is cool"}'
 ```
 
-## 📦 Deployment Platforms
-
-- **Render** (Recommended): Free tier, easy setup
-- **Railway**: $5 credit/month
-- **Heroku**: Uses Procfile
-- **Vercel**: May have size limits
-
 ## ⚠️ Important
 
 **Before deploying:**
