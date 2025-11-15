@@ -61,11 +61,13 @@ python app.py
   "word_count": 4
 }
 ```
-
-## 🧪 Test API
+## Backend API URL 
 ```URL For Testing
 https://ai-vs-human-text-classifier-wjl3.onrender.com
 ```
+
+## 🧪 Test API
+
 ```bash
 curl -X POST http://localhost:5000/predict \
   -H "Content-Type: application/json" \
