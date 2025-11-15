@@ -63,6 +63,9 @@ python app.py
 ```
 
 ## 🧪 Test API
+```URL For Testing
+https://ai-vs-human-text-classifier-wjl3.onrender.com
+```
 ```bash
 curl -X POST http://localhost:5000/predict \
   -H "Content-Type: application/json" \
