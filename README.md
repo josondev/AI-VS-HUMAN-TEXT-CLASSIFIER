@@ -3,14 +3,21 @@
 ## 📁 Project Structure
 ```
 |── FRONTEND
-├── detector.py          # Main detector class
-├── fastapi_app.py              # Flask API
+    ├── index.html
+    ├── styles.css
+    └── script.js
+└──balanced_human_ai_prompts.csv
+├── detector.py          # Main detector 
+├── fastapi_app.py              # Flask 
 ├── requirements.txt    # Dependencies
 ├── render.yaml         # Render config
-└── model/             # Trained model (create this!)
+└── model/             # Trained model 
     ├── vectorizer.joblib
     ├── classifier.joblib
     └── config.joblib
+└──.gitignore
+└──runtime.txt
+└──README.md
 ```
 
 ## 🚀 Quick Start
