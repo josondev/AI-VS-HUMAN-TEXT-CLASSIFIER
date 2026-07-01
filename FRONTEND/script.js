@@ -1,5 +1,5 @@
 // Configuration
-const API_BASE_URL = 'https://ai-vs-human-text-classifier-wjl3.onrender.com';
+const API_BASE_URL = 'https://ai-text-detector-new.onrender.com/';
 const API_ENDPOINTS = {
     predict: '/predict',
     health: '/health',
