@@ -2,7 +2,7 @@ services:
   - type: web
     name: ai-text-detector
     runtime: python
+    pythonVersion: 3.11.0
     plan: free
-    version: 3.11.0
     buildCommand: pip install --upgrade pip && pip install -r requirements.txt
     startCommand: uvicorn fastapi_app:app --host 0.0.0.0 --port $PORT
