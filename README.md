@@ -70,7 +70,7 @@ python app.py
 ```
 ## Backend API URL 
 ```URL For Testing
-https://ai-vs-human-text-classifier-wjl3.onrender.com
+https://ai-text-detector-new.onrender.com/
 ```
 
 ## 🧪 Test API
